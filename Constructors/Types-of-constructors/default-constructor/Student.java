@@ -9,7 +9,15 @@ public class Student {
     //default constructor
 
     Student () {
+        name = "Rodgers";
+        age = 20;
+        regno = "BTIT/088J/2024";
+    }
 
-        //takes no parameter and body is empty
+    public static void main(String[] args) {
+        Student student = new Student();
+        System.out.println("Name: " + student.name);
+        System.out.println("Age: " + student.age);
+        System.out.println("Registration Number: " + student.regno);
     }
 }
