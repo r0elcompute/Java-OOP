@@ -10,6 +10,7 @@
 
 
 //Here is a code to illustrate a constructor method
+//Constructors are of 3 types discussed in another folder
 
 public class Student {
     public String name;
