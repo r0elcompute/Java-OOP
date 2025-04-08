@@ -17,12 +17,20 @@ public class Student {
     public int age;
     public String regno;
 
-    //A constructor method
+    //A default constructor method
     
-    Student (String name, int age, String regno) {
-        this.name = name;
-        this.age = age;
-        this.regno = regno;
+    Student () {
+        name = "Rodgers";
+        age = 20;
+        regno = "BTIT/088J/2024";
+    }
+
+    public static void main(String[] args) {
+        //create an object from class Student 
+        Student student = new Student();
+        System.out.println(student.name);
+        System.out.println(student.age);
+        System.out.println(student.regno);
     }
 
 }
